@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azeez Hakeem - Aspiring Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Azeez Hakeem</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Frontend Developer in Training</h2>
+            <p>Building modern web solutions with HTML, CSS & JavaScript</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm transitioning from marketing into frontend development, combining business acumen with technical skills. Currently learning HTML, CSS, and JavaScript to build user-friendly web experiences.</p>
+        <p>Based in Nigeria. Graduated from Istanbul Aydin University, Turkey. Open to remote opportunities and collaboration.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills I'm Building</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML5</h3>
+                <p>Semantic markup, accessibility, SEO-friendly structure</p>
+            </div>
+            <div class="skill-card">
+                <h3>CSS3</h3>
+                <p>Responsive design, flexbox, grid, animations</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Currently learning: DOM manipulation, events, ES6+</p>
+            </div>
+            <div class="skill-card">
+                <h3>Git & GitHub</h3>
+                <p>Version control, collaboration, code management</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Personal Portfolio</h3>
+            <p>My first project built with HTML and CSS. A responsive single-page site showcasing my journey into web development.</p>
+            <p><strong>Tech:</strong> HTML5, CSS3</p>
+        </div>
+        <p class="coming-soon">More projects coming soon as I continue learning...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Let's Connect</h2>
+        <p>I'm actively seeking opportunities to learn and grow as a developer.</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/azeez-hakeem-64a32a1a4" target="_blank">LinkedIn</a>
+            <a href="https://github.com/AzOnWeb" target="_blank">GitHub</a>
+            <a href="mailto:hazeezhakeem01@gmail.com
+">Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Azeez Hakeem. Built with HTML & CSS.</p>
+    </footer>
+</body>
+</html>
