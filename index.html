@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azeez Hakeem - Aspiring Frontend Developer</title>
+    <title>Azeez Hakeem – YouTube Video Editor & Content Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <nav>
-            <h1>Azeez Hakeem</h1>
+            <span class="logo">Azeez Hakeem</span>
             <ul>
                 <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -21,63 +25,116 @@
 
     <section id="hero">
         <div class="hero-content">
-            <h2>Frontend Developer in Training</h2>
-            <p>Building modern web solutions with HTML, CSS & JavaScript</p>
-            <a href="#contact" class="cta-button">Get In Touch</a>
+            <p class="eyebrow">YouTube Video Editor · CapCut Specialist</p>
+            <h1>Your footage.<br>My edit.<br><span class="accent">Better videos.</span></h1>
+            <p class="hero-sub">I turn raw clips into polished YouTube content that keeps viewers watching — using CapCut with a strategy-first mindset.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn-primary">Work With Me</a>
+                <a href="https://www.fiverr.com/azeez_hakeem050" target="_blank" class="btn-secondary">View Fiverr Gigs</a>
+            </div>
+        </div>
+        <div class="hero-badge">
+            <div class="badge-ring">
+                <span>CapCut</span>
+                <span class="dot">✦</span>
+                <span>YouTube</span>
+                <span class="dot">✦</span>
+                <span>Content</span>
+                <span class="dot">✦</span>
+            </div>
         </div>
     </section>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>I'm transitioning from marketing into frontend development, combining business acumen with technical skills. Currently learning HTML, CSS, and JavaScript to build user-friendly web experiences.</p>
-        <p>Based in Nigeria. Graduated from Istanbul Aydin University, Turkey. Open to remote opportunities and collaboration.</p>
+        <div class="about-grid">
+            <div class="about-text">
+                <p class="eyebrow">About Me</p>
+                <h2>Editor with a marketer's brain.</h2>
+                <p>I'm Azeez — a YouTube video editor based in Lagos, Nigeria, currently building my own channel while helping other creators level up their content using CapCut.</p>
+                <p>My background in digital marketing and 5+ years running a business means I don't just cut footage — I think about pacing, retention, and what makes people stay till the end.</p>
+                <p>I've lived and studied across Nigeria, Turkey, Belarus, and Portugal. That perspective shows up in how I approach storytelling.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-num">5+</span>
+                    <span class="stat-label">Years in Marketing & Operations</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">3</span>
+                    <span class="stat-label">Languages Spoken</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">4</span>
+                    <span class="stat-label">Countries Lived In</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <p class="eyebrow center">What I Do</p>
+        <h2 class="center">Video editing services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎬</div>
+                <h3>YouTube Video Editing</h3>
+                <p>Full edits for long-form YouTube videos — cuts, transitions, music sync, captions, colour correction, and a clean final export ready to upload.</p>
+            </div>
+            <div class="service-card featured">
+                <div class="service-icon">✂️</div>
+                <h3>CapCut Editing</h3>
+                <p>Fast, polished edits using CapCut. Perfect pacing, trending effects, and platform-optimised output for YouTube, Shorts, and Reels.</p>
+                <span class="tag">Most Requested</span>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Shorts & Reels</h3>
+                <p>Short-form edits cut for maximum retention — hook in the first 3 seconds, tight pacing, and captions that keep mobile viewers engaged.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🖼️</div>
+                <h3>Thumbnail Design</h3>
+                <p>Eye-catching thumbnails that improve click-through rates. Bold text, clean composition, and designs tuned to your channel's style.</p>
+            </div>
+        </div>
     </section>
 
     <section id="skills">
-        <h2>Skills I'm Building</h2>
+        <p class="eyebrow center">Toolkit</p>
+        <h2 class="center">Skills & expertise</h2>
         <div class="skills-grid">
-            <div class="skill-card">
-                <h3>HTML5</h3>
-                <p>Semantic markup, accessibility, SEO-friendly structure</p>
-            </div>
-            <div class="skill-card">
-                <h3>CSS3</h3>
-                <p>Responsive design, flexbox, grid, animations</p>
-            </div>
-            <div class="skill-card">
-                <h3>JavaScript</h3>
-                <p>Currently learning: DOM manipulation, events, ES6+</p>
-            </div>
-            <div class="skill-card">
-                <h3>Git & GitHub</h3>
-                <p>Version control, collaboration, code management</p>
-            </div>
+            <div class="skill-pill">CapCut</div>
+            <div class="skill-pill">YouTube Editing</div>
+            <div class="skill-pill">Short-Form Video</div>
+            <div class="skill-pill">Content Strategy</div>
+            <div class="skill-pill">Video SEO</div>
+            <div class="skill-pill">Thumbnail Design</div>
+            <div class="skill-pill">Digital Marketing</div>
+            <div class="skill-pill">HTML & CSS</div>
+            <div class="skill-pill">Project Management</div>
+            <div class="skill-pill">Social Media Growth</div>
         </div>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Personal Portfolio</h3>
-            <p>My first project built with HTML and CSS. A responsive single-page site showcasing my journey into web development.</p>
-            <p><strong>Tech:</strong> HTML5, CSS3</p>
-        </div>
-        <p class="coming-soon">More projects coming soon as I continue learning...</p>
     </section>
 
     <section id="contact">
-        <h2>Let's Connect</h2>
-        <p>I'm actively seeking opportunities to learn and grow as a developer.</p>
-        <div class="contact-links">
-            <a href="https://www.linkedin.com/in/azeez-hakeem-64a32a1a4" target="_blank">LinkedIn</a>
-            <a href="https://github.com/AzOnWeb" target="_blank">GitHub</a>
-            <a href="mailto:hazeezhakeem01@gmail.com
-">Email</a>
+        <div class="contact-inner">
+            <p class="eyebrow center">Get In Touch</p>
+            <h2 class="center">Let's work together.</h2>
+            <p class="contact-sub center">Available for freelance video editing projects. Fast turnaround, clear communication, revisions included.</p>
+            <div class="contact-links">
+                <a href="https://www.fiverr.com/azeez_hakeem050" target="_blank" class="btn-primary">Hire Me on Fiverr</a>
+                <a href="mailto:azeezhakeem050@gmail.com" class="btn-secondary">Send Email</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/azeez-hakeem-64a32a1a4" target="_blank">LinkedIn</a>
+                <a href="https://github.com/AzOnWeb" target="_blank">GitHub</a>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Azeez Hakeem. Built with HTML & CSS.</p>
+        <p>© 2026 Azeez Hakeem · Lagos, Nigeria · Built with HTML & CSS</p>
     </footer>
+
 </body>
 </html>
